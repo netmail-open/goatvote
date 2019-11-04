@@ -1,0 +1,26 @@
+{
+    "name": "goatvote",
+    "version": "0.0.1",
+    "description": "simple voting/ranking toy",
+    "main": "index.js",
+    "author": "Owen Swerkstrom",
+    "license": "public domain",
+    "files": [
+        "docroot",
+        "index.js"
+    ],
+    "dependencies": {},
+    "keywords": [
+        "vote",
+        "poll",
+        "rank"
+    ],
+    "devDependencies": {
+        "commander": "^4.0.0",
+        "connect": "^3.7.0",
+        "fs-extra": "^8.1.0",
+        "http": "0.0.0",
+        "path": "^0.12.7",
+        "url": "^0.11.0"
+    }
+}

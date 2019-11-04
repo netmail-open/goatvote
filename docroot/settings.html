@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>GOAT Vote: Greatest Of All the Things</title>
+	<link rel="shortcut icon" href="icon.png">
+	<link rel="stylesheet" href="style.css">
+	<script src="util.js"></script>
+	<script src="admin.js"></script>
+  </head>
+  <body>
+	<div class="center">
+	  <div class="loading">
+		Loading... <span class="spinner">(  )</span>
+	  </div>
+
+	  <div class="msg hidden"></div>
+
+	  <div class="poll hidden">
+		<div>
+		  <input id="title" placeholder="Poll Title">
+		</div>
+		<div>
+		  <input id="desc" placeholder="Description">
+		</div>
+		<div>
+		  <ol id="choices" class="result admin"></ol>
+		</div>
+		<div>
+		  <a id="add" href="#">&oplus;</a>
+		</div>
+		<div>
+		  <input id="closed" type="checkbox"> <label for="closed">Close voting</label>
+		</div>
+		<div>
+		  <input id="clear" type="checkbox"> <label for="clear">Clear results</label>
+		</div>
+		<div class="pad">
+		  <label for="code">Admin code: <input type="password" id="code" size="10"></label>
+		  <br><br>
+		  <a id="submit" href="#">Save changes</a>
+		</div>
+	  </div>
+
+	  <a id="edit" href="/">
+		Back to the poll!
+	  </a>
+	</div>
+  </body>
+</html>
