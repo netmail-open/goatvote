@@ -90,7 +90,7 @@ a {
 }
 .poll li span.total {
 	margin-left: 1em;
-	/* float: right; */
+	float: right;
 }
 .poll li.total {
 	list-style-type: decimal;
