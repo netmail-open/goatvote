@@ -2,9 +2,10 @@
     "name": "goatvote",
     "version": "0.0.1",
     "description": "simple voting/ranking toy",
+    "repository": "https://bitbucket.netmail.com/scm/open/goatvote.git",
     "main": "index.js",
     "author": "Owen Swerkstrom",
-    "license": "public domain",
+    "license": "CC0-1.0",
     "files": [
         "docroot",
         "index.js"
