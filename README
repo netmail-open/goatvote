@@ -9,7 +9,7 @@ Install & Run
 -------------
 
 $ npm install
-$ SECRET=somepassword node .
+$ CODE=somepassword node .
 
 
 Configuration
