@@ -16,5 +16,5 @@ Configuration
 -------------
 
 Environment variables or command-line arguments are available:
-  SECRET  or --secret  password for administering the poll (default: "secret")
-  PORT    or --port    sets the port for where to serve UI (default: 8000)
+  CODE or --code  password for administering the poll (default: "secret")
+  PORT or --port  sets the port for where to serve UI (default: 8000)
